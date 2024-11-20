@@ -9,7 +9,7 @@ namespace phpcent;
  * @copyright  Copyright (c) 2019 Centrifugal
  * @license    The MIT License (MIT)
  */
-class Client
+class Client implements ClientInterface
 {
     private $url;
     private $apikey;
@@ -273,7 +273,7 @@ class Client
 
     /**
      * Get all active channels.
-     * 
+     *
      * @param string $pattern (optional)
      * @return mixed
      */
