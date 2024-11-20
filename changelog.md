@@ -1,3 +1,7 @@
+# v6.0.2
+
+* An extension point has been added for flexibility
+
 # v6.0.0
 
 Since phpcent v6.0.0 we do not maintain CHANGELOG.md file.
